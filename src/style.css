@@ -1,0 +1,52 @@
+.holder {
+  width: 40%;
+  height: fit-content;
+  max-height: 48%;
+  background-color: var(--c-onBg);
+  padding: calc(1.5 * var(--base-space));
+
+  gap: calc(1.5 * var(--base-space));
+
+  margin-top: calc(40 * var(--base-space));
+}
+
+.holder .input-div {
+  width: 100%;
+  background-color: var(--c-bg);
+  padding: calc(1.25 * var(--base-space)) calc(1.5 * var(--base-space));
+  gap: calc(1.5 * var(--base-space));
+}
+
+.holder .input-div input {
+  flex-grow: 1;
+}
+
+.holder .input-div .icon {
+  padding-top: calc(0.25 * var(--base-space));
+  padding-bottom: calc(0.25 * var(--base-space));
+  padding-left: calc(0.75 * var(--base-space));
+  padding-right: calc(1.5 * var(--base-space));
+}
+
+.holder .input-div .searchEngineName {
+  color: var(--c-accent);
+}
+
+.holder .suggestions-div {
+  width: 100%;
+  padding: calc(1.25 * var(--base-space)) calc(1.5 * var(--base-space));
+  display: none;
+  gap: calc(1.5 * var(--base-space));
+  background-color: var(--c-bg);
+}
+
+.holder .suggestions-div .command {
+  width: 100%;
+  justify-content: space-between;
+  color: var(--c-secondary);
+}
+
+.holder .suggestions-div .command button {
+  padding: calc(0.5 * var(--base-space)) calc(0.75 * var(--base-space));
+  border: 1px solid var(--c-tertiary) !important;
+}

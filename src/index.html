@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ZeroTab</title>
-    <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="global.css" />
+    <link rel="stylesheet" href="style.css" />
     <script type="module" src="index.js"></script>
   </head>
   <body>
@@ -26,10 +26,18 @@
       />
     </div>
     <main>
-      <div class="holder">
-        <div class="input-div">
-          <img src="../assets/logo.png" alt="ZeroTab" width="28" height="28" />
+      <div id="search-holder" class="holder flex column radius4">
+        <div id="search-div" class="input-div flex row xCenter radius3">
+          <img src="../assets/logo.png" alt="ZeroTab" width="24" height="24" />
+          <input
+            spellcheck="true"
+            id="search-input"
+            type="text"
+            placeholder="Type a command or search"
+          />
+          <button class="icon body2 radius1" id="settings">&#xeb51;</button>
         </div>
+        <div id="suggestions" class="suggestions-div radius3 flex column"></div>
       </div>
     </main>
   </body>
