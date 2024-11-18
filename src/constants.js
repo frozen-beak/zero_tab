@@ -17,7 +17,7 @@ export const commands = {
     },
     g: {
       name: "Google",
-      url: "https://www.google.com/?q=%s",
+      url: "https://www.google.com/search?q=%s",
       icon: "https://www.google.com/favicon.ico",
     },
     w: {
