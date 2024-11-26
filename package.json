@@ -1,0 +1,20 @@
+{
+  "name": "zero_tab",
+  "version": "1.0",
+  "description": "A keyboard-friendly, command-driven search bar",
+  "author": {
+    "name": "Aditya Motale",
+    "url": "https://github.com/frozen-beak"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "bun-types": "^1.1.36",
+    "playwright": "^1.49.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@playwright/test": "^1.49.0"
+  }
+}
