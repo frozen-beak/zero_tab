@@ -8,4 +8,10 @@ export default defineConfig({
     baseURL: "file://" + __dirname,
     trace: "on-first-retry",
   },
+  projects: [
+    {
+      name: "chromium",
+      use: { browserName: "chromium" },
+    },
+  ],
 });
